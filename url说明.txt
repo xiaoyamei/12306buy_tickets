@@ -1,0 +1,10 @@
+余票查询页面： https://kyfw.12306.cn/otn/leftTicket/init
+余票查询请求url（点击查询按钮发出的请求）（其中的queryX?中的X会经常变动）：
+https://kyfw.12306.cn/otn/leftTicket/queryX?leftTicketDTO.train_date=2019-01-18&leftTicketDTO.from_station=BJP&leftTicketDTO.to_station=XAY&purpose_codes=ADULT
+登录页面：https://kyfw.12306.cn/otn/login/init
+登录成功后自动进入的页面：https://kyfw.12306.cn/otn/view/index.html
+完成订票，进入付款页面：https://kyfw.12306.cn/otn//payOrder/init?random=1550031407895 或
+https://kyfw.12306.cn/otn/view/train_order.html?type=1&random=1550034115995
+
+站点代码请求url（其中1.9042可能会变）：
+https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.9042
